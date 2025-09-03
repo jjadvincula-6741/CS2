@@ -1,7 +1,7 @@
 # Project Title Finding Suitable Jobs
 
 ## Project Description
-This is a p that can help people find jobs that are suitable for them by making a survey for them to put their information and display jobs that can be suitable for them.
+This is a program that can help people find jobs that are suitable for them by making a survey for them to put their information and display jobs that can be suitable for them.
 
 ## Features
 - Enter users information
