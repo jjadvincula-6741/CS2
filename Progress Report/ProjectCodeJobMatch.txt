@@ -1,0 +1,20 @@
+trigger_Interview = 0
+name = input("Enter Name: ")
+print(f"Hello {name} welcome to Jobmatch!")
+while trigger_Interview == 0:
+	start_Interview = input("Do you want to start?(y/n): ")
+	lowercase_text = start_Interview.lower()
+	if lowercase_text == 'y':
+		trigger_Interview = trigger_Interview + 1
+	elif lowercase_text == 'n':
+		quit()
+	else:
+		print("inputted the wrong letter try again")
+q1 = input("Are you hardworking?(y/n):")
+if q1 == 'y':
+    q2a = input("are you intelligent academically?(y/n):")
+    if q2a == 'y':
+        print("Work in progress")
+if q1 == 'n':
+    print("work in progress")
+#work in progress
