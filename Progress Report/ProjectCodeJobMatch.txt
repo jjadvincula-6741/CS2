@@ -14,7 +14,13 @@ q1 = input("Are you hardworking?(y/n):")
 if q1 == 'y':
     q2a = input("are you intelligent academically?(y/n):")
     if q2a == 'y':
-        print("Work in progress")
+        q3a=input("Are you confident?(y/n)?:")
+		if q3a == 'y':
+			q4a = input("Do you have stage-fright?(y/n):")
+				if q4a == 'y':
+					q5a = input("Are you a leadership worthy person?(MUST BE HONEST)(y/n):")
+						if q5a == 'y':
+							q6a = input("Are you a simple person?(y/n):")
 if q1 == 'n':
-    print("work in progress")
+    print("are you patient?")
 #work in progress
