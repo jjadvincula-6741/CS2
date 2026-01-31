@@ -21,6 +21,12 @@ if q1 == 'y':
 					q5a = input("Are you a leadership worthy person?(MUST BE HONEST)(y/n):")
 						if q5a == 'y':
 							q6a = input("Are you a simple person?(y/n):")
+    elif q2a == 'n':
+	q3b=input("Do you work as a group?(y/n)")
+	if q3b == 'y':
+		q4b=input("Are you a simple person?(y/n)")
+		if q4b == 'y':
+			q5b ==
 if q1 == 'n':
     print("are you patient?")
 #work in progress
