@@ -1,0 +1,49 @@
+trigger_Interview = 0
+name = input("Enter Name: ")
+print(f"Hello {name} welcome to Jobmatch!")
+while trigger_Interview == 0:
+	start_Interview = input("Do you want to start?(y/n): ")
+	lowercase_text = start_Interview.lower()
+	if lowercase_text == 'y':
+		trigger_Interview = trigger_Interview + 1
+	elif lowercase_text == 'n':
+		quit()
+	else:
+		print("inputted the wrong letter try again")
+While Exit_interview == 1
+q1 = input("Are you hardworking?(y/n):")
+q1_lowercase = q1.lower()
+if q1_lowercase == 'y':
+    	q2a = input("are you intelligent academically?(y/n):")
+    	q2a_lowercase = q2a.lower() 
+    	if q2a == 'y':
+        	q3a=input("Are you confident?(y/n)?:")
+		q3a_lowercase = q3a.lower()
+		if q3a_lowercase == 'y':
+			q4a = input("Do you have the capability to be under pressure?(y/n):")
+			q4a_lowercase = q4a.lower()
+			if q4a_lowercase == 'y':
+				q5a = input("Are you a leadership worthy person?(MUST BE HONEST)(y/n):")
+				q5a_lowercase = q5a.lower()
+				if q5a_lowercase == 'y':
+					job = 1
+					print("your Job is a Manager!")
+					Exit_interview = 1
+				elif q5a_lowercase == 'n':
+					job = 2
+					print("your Job is a Doctor!")
+    	elif q2a == 'n':
+		q3ab=input("Do you want to work with a group?(y/n): ")
+		q3ab_lowercase = q3ab.lower()
+		if q3ab== 'y':
+			q4ab = input("Are you a simple person?(y/n): ")
+			q4ab_lowercase = q4ab.lower()
+			if q4ab == 'y':
+				q5ab = input("")
+				q5ab_lowercase = q5ab.lower()
+				if q5ab_lowercase == "y"
+					job
+elif q1 == 'n':
+    q2b = input("are you patient?(y/n)")
+
+#work in progress
