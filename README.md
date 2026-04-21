@@ -17,7 +17,7 @@ This is a program that can help people find jobs that are suitable for them by m
 
 ## Example output
 Enter name: James
-What is ur favorite thing to do?: Running
+if a is b why is c? answer(in multiple choice):A
 #note: only 1 question for the example output there are many more questions
 Job: Athlete
 
